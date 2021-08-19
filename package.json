@@ -1,0 +1,20 @@
+{
+	"name": "bitcoin-concept",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/leonardograndi/bitcoin-concept.git",
+	"author": "Leonardo Grandi <leonardofelipegrandi@gmail.com>",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"start:dev": "nodemon src/main.js"
+	},
+	"dependencies": {
+		"crypto-js": "^4.1.1",
+		"moment": "^2.29.1"
+	},
+	"devDependencies": {
+		"faker": "^5.5.3",
+		"nodemon": "^2.0.12"
+	}
+}
